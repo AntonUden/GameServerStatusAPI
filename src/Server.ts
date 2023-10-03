@@ -3,6 +3,7 @@ import HTTP from "http";
 import Express from "express";
 import GameServer from "./GameServer";
 import IServerResult from "./IServerResult";
+import * as Cors from "cors";
 
 export default class Server {
 	private _express: Express.Express;
@@ -23,6 +24,8 @@ export default class Server {
 
 		this._express = Express();
 		this._express.set("port", config.port);
+
+		this._express.use(Cors.default());
 
 		this._http = new HTTP.Server(this._express);
 
