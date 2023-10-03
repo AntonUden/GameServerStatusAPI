@@ -1,8 +1,14 @@
-package-lock.json
+CODE_OF_CONDUCT.md
+README.md
+LICENSE
+/config
+
 .github
 .gitignore
 CODE_OF_CONDUCT.md
 .dockerignore
 README.md
 LICENSE
-/config
+dist
+node_modules
+.node_modules

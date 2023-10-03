@@ -4,6 +4,7 @@
   "description": "",
   "main": "./dist/app.js",
   "scripts": {
+    "build": "tsc --build",
     "start": "node ./dist/app.js",
     "test": "nodemon --ignore ./client/ ./dist/app.js"
   },
@@ -13,12 +14,12 @@
     "@types/cors": "^2.8.14",
     "@types/express": "^4.17.13",
     "@types/gamedig": "^3.0.2",
-    "@types/node": "^17.0.31",
+    "@types/node": "^17.0.45",
     "console-stamp": "^3.0.5",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "gamedig": "^4.0.4",
+    "gamedig": "^4.1.0",
     "nodemon": "^2.0.16",
-    "typescript": "^4.6.4"
+    "typescript": "^5.2.2"
   }
 }

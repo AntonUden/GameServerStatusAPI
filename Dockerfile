@@ -1,12 +1,14 @@
-FROM node:14
+FROM node:20-alpine3.16
 
 WORKDIR /app
 
-COPY package.json ./
+COPY . .
 
 RUN npm install
+RUN npm install -g typescript
+RUN npm install -g ts-node
 
-COPY . .
+RUN npm run build
 
 EXPOSE 8080
 
