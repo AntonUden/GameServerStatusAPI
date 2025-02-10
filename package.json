@@ -17,7 +17,7 @@
     "@types/node": "^17.0.45",
     "console-stamp": "^3.0.5",
     "cors": "^2.8.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "gamedig": "^4.1.0",
     "nodemon": "^2.0.16",
     "typescript": "^5.2.2"
